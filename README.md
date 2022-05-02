@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<h1 align="center">📝 Teste Front-End </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center"><a href="https://petshop-online.netlify.app/"> 🚀 Clique Aqui Para Acessar o site 🚀</a></h2>
 
-## Available Scripts
+<h2 align="center">👁‍🗨👁‍🗨</h2>
+<h3 align="center">📸Screenshot</h3>
+<p>
+<h1 align="center"><img src="src/img/app-frontend.gif"></h1>
 
-In the project directory, you can run:
+## **Desafio Econverse**
 
-### `npm start`
+Nesse projeto eu desenvolvi uma página frontend de um pet shop online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Tecnologias Utilizadas
+    * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+    * [ReactJs](https://pt-br.reactjs.org/)
+    * [Sass](https://sass-lang.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Principais Frameworks que foi Utilizados 
+    * [Axios](https://www.npmjs.com/package/axios)
+    * [react-icons](https://react-icons.github.io/react-icons/)
+    * [react-modal](https://www.npmjs.com/package/react-modal)
+    * [react-owl-carousel](https://www.npmjs.com/package/react-owl-carousel)
+    * [slick-carousel](https://react-slick.neostack.com/docs/get-started/)
+    * [swiper](https://swiperjs.com/get-started)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Desafio
 
-### `npm run build`
+Montar a Vitrine de produtos consumindo as informações dos produtos em json atraves de um Link com uso de jQuery, React.js, Vue.js, ou Angular.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para encontrar os arquivos do desafio principal entre na pasta
+* src
+    * components
+        * main
+            * component-vitrine-produtos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## API
+Eu criei uma fake API bem simples com o [My JSON Server](https://my-json-server.typicode.com/)
 
-### `npm run eject`
+* link do [arquivo json](https://my-json-server.typicode.com/AAndersonSantos/mockjson/products)
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h2 align="center"> Testando o Projeto </h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 1 - Primeiro Passo
+Para testar o projeto primeiro faça o clone do repositório utilizando a linha de comando abaixo:
+```
+git clone https://github.com/AAndersonSantos/Frontend-Teste.git
+```
+ou faça o download do projeto em download zip.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 2 - Segundo Passo
+Entre na pasta Frontend-Teste e utilize a linha de comando abaixo para fazer o download de todas as dependências necessarias para que o projeto funcione corretamente
+``` 
+npm install
+``` 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 3 - Terceiro Passo
+Utilize a linha de comando
 
-## Learn More
+``` 
+npm start 
+``` 
+ou
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+``` 
+yarn start 
+``` 
+para inicializar o projeto, e por último acesse o link [http://localhost:3000](http://localhost:3000) 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+### `Melhorias para fazer neste projeto.`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Responsividade
+* Header, Swiper carousel
+* OWL Carousel
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+O deploy desse projeto foi realizado no [Netlify](https://www.netlify.com/)
 
-### Making a Progressive Web App
+<h2 align="center"><a href="https://petshop-online.netlify.app/"> 🚀 Clique Aqui Para Acessar o site 🚀</a></h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<h3 align="center">Criado por🤖Anderson Santos</h3>
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
