@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+$laranja: #FBB900;
+
+section .card-produtos .owl-theme{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    height: 590px;
+}
+
+section .card-produtos .owl-theme .item{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 520px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+}
+
+section .card-produtos .owl-theme .item:hover{
+   transform: scale(1.08);
+}
+
+section .card-produtos .owl-theme .item img{
+    height: 190px;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section .card-produtos .owl-theme .item .desconto{
+    position: absolute;
+    line-height: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: $laranja;
+    background: #FEF6E7;
+    border-radius: 6px;
+}
+
+section .card-produtos .owl-theme .item .icon{
+    position: relative;
+    font-size: 30px;
+    color: #9F9F9F;
+    width: 40px;
+    top: 43px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+section .card-produtos .owl-theme .item .nome-produto{
+    margin-top: -12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: #4D4D4D;
+    width: 240px;
+}
+
+section .card-produtos .owl-theme .item .preco-anterior{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #9F9F9F;
+}
+
+section .card-produtos .owl-theme .item .preco-atual{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 15px;
+    color: #4D4D4D;
+}
+
+section .card-produtos .owl-theme .item .assinantes{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2px;
+    padding: 5px;
+    text-align: center;
+    color: $laranja;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -12px;
+}
+
+section .card-produtos .owl-theme .item .assinantes span{
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+section .card-produtos .owl-theme .item button{
+    cursor: pointer;
+    width: 220px;
+    height: 48px;
+    background: $laranja;
+    border: 1px solid #F0D075;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+section .card-produtos .owl-theme .item button:hover{
+    transform: scale(0.95);
+}
+
+section .card-produtos .ver-todos{
+    position: absolute;
+    margin-left: 46%;
+    margin-top: -68px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: $laranja;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------- Setas ---------------------------------*/
+section .card-produtos .owl-prev{
+    position: absolute;
+    top: 210px;
+    left: -25px;
+    height: 37px;
+    width: 37px;
+    font-size: 28px !important;
+    color: #000000 !important;
+    background: #FFFFFF !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0px -1px 15px -6px #000000 !important; 
+    box-shadow: 0px -1px 15px -6px #000000 !important;
+
+    &:hover{
+        background: #FFFFFF !important;
+        transform: scale(0.95);
+    }
+}
+
+section .card-produtos .owl-dots{
+    margin-top: 25px;
+}
+
+section .card-produtos .owl-next{
+    position: absolute;
+    top: 210px;
+    right: -25px;
+    height: 37px;
+    width: 37px;
+    font-size: 28px !important;
+    color: #000000 !important;
+    background: #FFFFFF !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0px -1px 15px -6px #000000 !important; 
+    box-shadow: 0px -1px 15px -6px #000000 !important;
+
+    &:hover{
+        background: #FFFFFF !important;
+        transform: scale(0.95);
+    }
+}
+
+/*--------------------------------------- Modal --------------------------*/
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.54);
+    z-index: 2;
+  }
+
+  .modal {
+    outline: none;
+    flex-direction: row;
+    display: flex;
+    position: absolute;
+    width: 769px;
+    height: 355px;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+    background: white;
+    border-radius: 5px;
+    z-index: 2;
+
+    img{
+        margin-left: 50px;
+        margin-top: 50px;
+        height: 250px;
+        width: 250px;
+    }
+
+    button{
+        position: relative;
+        top: 7px;
+        left: 730px;
+        color: #707070;
+        height: 32px;
+        width: 32px;
+        border: none;
+        background: none;
+        cursor: pointer;
+        font-size: 27px;
+    }
+
+}
+
+.modal-descricao{
+    margin-left: auto;
+    margin-top: 80px;
+    height: 200px;
+    width: 400px;
+
+    h1{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        color: #041E50;
+    }
+
+    .modal-preco{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        color: #041E50;
+    }
+
+    .modal-descricao-produto{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150.5%;
+        letter-spacing: 0.05em;
+        color: #222222;
+    }
+
+    .modal-detahes{
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0.05em;
+        color: #041E50;
+        cursor: pointer;
+    }
+}

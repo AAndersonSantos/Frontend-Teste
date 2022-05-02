@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+section .principais-marcas-titulo{
+    flex-direction: row;
+    display: flex;
+    width: 95%;
+}
+
+section .principais-marcas-titulo h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #4D4D4D;
+    margin-left: 50px;
+}
+
+section .principais-marcas-titulo span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 45px;
+    text-decoration-line: underline;
+    color: #FBB900;
+    margin-left: auto;
+}
+
+section .principais-marcas .owl-theme{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+section .principais-marcas .owl-theme .item{
+    margin-left: 15px;
+    height: 178px;
+    width: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 16px rgba(179, 134, 0, 0.12);
+    border-radius: 20px;
+}
+
+section .principais-marcas .owl-theme .item-img-1{
+    height: 42px;
+    width: 123px;
+}
+
+section .principais-marcas .owl-theme .item-img-2{
+    height: 84px;
+    width: 81px;
+}
+
+section .principais-marcas .owl-theme .item-img-3{
+    height: 36px;
+    width: 128px;
+}
+
+section .principais-marcas [class*=owl-].owl-prev{
+    position: absolute;
+    top: 65px;
+    left: -2px;
+    height: 30px;
+    width: 30px;
+    font-size: 25px !important;
+    color: #000000 !important;
+    background: #FFFFFF !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0px -1px 15px -6px #000000 !important; 
+    box-shadow: 0px -1px 15px -6px #000000 !important;
+}
+
+section .principais-marcas .owl-prev:hover{
+    background: #FFFFFF !important;
+    transform: scale(0.95);
+}
+
+section .principais-marcas [class*=owl-].owl-next{
+    position: absolute;
+    top: 65px;
+    right: -2px;
+    height: 30px;
+    width: 30px;
+    font-size: 25px !important;
+    color: #000000 !important;
+    background: #FFFFFF !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0px -1px 15px -6px #000000 !important; 
+    box-shadow: 0px -1px 15px -6px #000000 !important;
+}
+
+section .principais-marcas .owl-next:hover{
+    background: #FFFFFF !important;
+    transform: scale(0.95);
+}

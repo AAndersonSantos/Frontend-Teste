@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+section .article-blog h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #4D4D4D;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+section .article-blog .owl-theme{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+section .article-blog .owl-theme .item{
+    margin-left: 15px;
+    width: 275px;
+    height: 430px;
+    background: #FEF6E7;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+section .article-blog .owl-theme .item img{
+    height: 184px;
+    width: 275px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section .article-blog .owl-theme .item h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4D4D4D;
+    text-align: start;
+    margin-left: 20px;
+}
+
+section .article-blog .owl-theme .item p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9F9F9F;
+    text-align: start;
+    margin-left: 20px;
+}
+
+section .article-blog .owl-theme .item button{
+    width: 153px;
+    height: 48px;
+    background: #FBB900;
+    border: 1px solid #F0D075;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+section .article-blog [class*=owl-].owl-prev{
+    position: absolute;
+    top: 160px;
+    left: -10px;
+    height: 37px;
+    width: 37px;
+    font-size: 28px !important;
+    color: #000000 !important;
+    background: #FFFFFF !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0px -1px 15px -6px #000000 !important; 
+    box-shadow: 0px -1px 15px -6px #000000 !important;
+}
+
+section .article-blog .owl-prev:hover{
+    background: #FFFFFF !important;
+    transform: scale(0.95);
+}
+
+section .article-blog [class*=owl-].owl-next{
+    position: absolute;
+    top: 160px;
+    right: 10px;
+    height: 37px;
+    width: 37px;
+    font-size: 28px !important;
+    color: #000000 !important;
+    background: #FFFFFF !important;
+    border-radius: 27px !important;
+    -webkit-box-shadow: 0px -1px 15px -6px #000000 !important; 
+    box-shadow: 0px -1px 15px -6px #000000 !important;
+}
+
+section .article-blog .owl-next:hover{
+    background: #FFFFFF !important;
+    transform: scale(0.95);
+}

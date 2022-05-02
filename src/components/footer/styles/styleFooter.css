@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    background: #FBB900;
+}
+
+footer .container-sobre{
+    display: flex;
+    flex-direction: column;
+    height: 604px;
+    width: 600px;
+    background: #FBB900;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container-sobre h1{
+    width: 319px;
+    height: 72px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .container-sobre .redes-sociais{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+footer .container-sobre h2{
+    width: 250px;
+    height: 36px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+footer .container-sobre p{
+    width: 339px;
+    height: 252px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .container-informacoes{
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    height: 604px;
+    width: 600px;
+    background: #FBB900;
+}
+
+footer .container-informacoes div{
+    width: 160px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 52px;
+}
+
+footer .container-informacoes h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+footer .container-informacoes a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}

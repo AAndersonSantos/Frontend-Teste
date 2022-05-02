@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.section-opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 95%;
+
+    h1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #4D4D4D;
+        margin-bottom: 10px;
+        margin-right: auto;
+        margin-left: 50px;
+    }
+
+    .slide-opcoes{
+        width: 490px;
+        margin-top: 20px;
+
+        label {
+            margin-left: 5px;
+            cursor: pointer;
+            display: flex;
+            text-align: center;
+            height: 40px;
+            width: 107px;
+            border-radius: 6px;
+            background: #FFFFFF;
+            color: #9F9F9F;
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            text-transform: uppercase;
+            align-items: center;
+            border: 1px solid #E5E5E5;
+            box-sizing: border-box;
+            border-radius: 6px;
+            cursor: pointer;
+
+            input[type="checkbox"] {
+                display: none;
+            }
+
+            input[type="checkbox"]:checked~span {
+                background: #FBB900;
+                color: #4D4D4D;
+                border: 2px solid #E5E5E5;
+            }
+
+            &:hover {
+                background: #FBB900;
+            }   
+        }
+
+        .opcoes{
+
+            span{
+                padding-top: 6px;
+                height: 70%;
+                width: 99%;
+                border-radius: 6px;
+            }
+
+            &:hover {
+                transform: scale(1.07);
+            }
+        }
+    }
+}
+
+.btn-nextArrow{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 493px;
+    font-size: 50px;
+    color: #FBB900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.30);
+    }
+}
+
+.btn-prevArrow{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 495px;
+    font-size: 50px;
+    color: #FBB900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.30);
+    }
+}
