@@ -19,12 +19,20 @@ body {
   mix-blend-mode: darken;
 }
 
+.swiper-button-prev{
+  left: 90px;
+}
+
+.swiper-button-next{
+  right: 90px;
+}
+
 .swiper-slide {
   font-size: 18px;
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 100px 110px;
+  padding: 120px 170px;
 }
 
 .parallax-bg {

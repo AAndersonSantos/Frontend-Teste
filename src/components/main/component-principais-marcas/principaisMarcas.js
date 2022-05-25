@@ -8,6 +8,27 @@ import Img1 from './imgs/image17.png'
 import Img2 from './imgs/image18.png'
 import Img3 from './imgs/image19.png'
 
+const options = {
+    responsive: {
+        0: {
+            items: 2,
+        },
+        590: {
+            items: 3,
+        },
+        780: {
+            items: 4,
+        },
+        970: {
+            items: 5,
+        },
+        1185: {
+            items: 6,
+        },
+    }
+}
+
+
 function PrincipaisMarcas(){
     return(
         <section>
@@ -19,7 +40,7 @@ function PrincipaisMarcas(){
                 <span>Ver todos</span>
             </div>
 
-            <OwlCarousel className="owl-theme" loop margin={0} items="6" dots={false} nav>
+            <OwlCarousel className="owl-theme" loop margin={0} items="6" dots={false} nav  {...options}>
                         <div className="item">
                             <div className="item-img-1">
                                 <img src={Img1} alt="marcas-principais"/>

@@ -25,11 +25,11 @@ function CardProdutos() {
                 items: 2,
             },
 
-            1000: {
-                items: 4,
+            1100: {
+                items: 3,
             },
 
-            1400: {
+            1300: {
                 items: 4,
             },
         }

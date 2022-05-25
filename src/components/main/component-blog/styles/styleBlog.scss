@@ -19,12 +19,14 @@ section .article-blog .owl-theme{
 }
 
 section .article-blog .owl-theme .item{
-    margin-left: 15px;
+    
     width: 275px;
     height: 430px;
     background: #FEF6E7;
     border-radius: 20px;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section .article-blog .owl-theme .item img{
@@ -77,7 +79,7 @@ section .article-blog .owl-theme .item button{
 section .article-blog [class*=owl-].owl-prev{
     position: absolute;
     top: 160px;
-    left: -10px;
+    left: 0px;
     height: 37px;
     width: 37px;
     font-size: 28px !important;
@@ -96,7 +98,7 @@ section .article-blog .owl-prev:hover{
 section .article-blog [class*=owl-].owl-next{
     position: absolute;
     top: 160px;
-    right: 10px;
+    right: 0px;
     height: 37px;
     width: 37px;
     font-size: 28px !important;

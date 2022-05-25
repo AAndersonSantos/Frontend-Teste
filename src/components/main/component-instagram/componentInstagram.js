@@ -8,6 +8,23 @@ import Img1 from './imgs/image24.png'
 import Img2 from './imgs/image25.png'
 import Img3 from './imgs/image26.png'
 
+const options = {
+    responsive: {
+        0: {
+            items: 2,
+        },
+        590: {
+            items: 3,
+        },
+        700: {
+            items: 4,
+        },
+        1000: {
+            items: 5,
+        },
+    }
+}
+
 function ComponentInstagram(){
     return (
         <section>
@@ -17,7 +34,7 @@ function ComponentInstagram(){
                     <a>+Seguir</a>
                 </header>
 
-                <OwlCarousel className="owl-theme" dots={false} loop margin={-140} items="5" autoplay={true}>
+                <OwlCarousel className="owl-theme" dots={false} loop margin={-140} items="5" autoplay={true} {...options}>
                     
                     <div class="item">
                         <img src={Img1} alt="img"/>

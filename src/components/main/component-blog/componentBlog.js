@@ -9,13 +9,32 @@ import Img2 from './imgs/image9.png'
 import Img3 from './imgs/Rectangle63.png'
 import Img4 from './imgs/image24.png'
 
+const options = {
+    responsive: {
+        0: {
+            items: 1,
+        },
+
+        610: {
+            items: 2,
+        },
+
+        900: {
+            items: 3,
+        },
+        1185: {
+            items: 4,
+        },
+    }
+}
+
 function ComponentBlog(){
     return(
         <section>
             <article className='article-blog'>
-                <h1>Categorias</h1>
+                <h1>Confira o nosso Blog</h1>
 
-                <OwlCarousel className="owl-theme" loop margin={-10} dots={true} items="4" autoplay={true} nav>
+                <OwlCarousel className="owl-theme" loop margin={-10} dots={true} items="4" autoplay={true} nav {...options}>
                     <div class="item">
                         <img src={Img1} alt="img-blog"/>
                         <h2>Lorem ipsum dolor sit amet consectetur.</h2>

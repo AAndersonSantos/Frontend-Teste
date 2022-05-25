@@ -24,6 +24,8 @@ section .article-categorias .owl-theme .item-theme-1{
     width: 300px;
     display: flex;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section .article-categorias .owl-theme .item-theme-1 img{
@@ -79,4 +81,67 @@ section .article-categorias [class*=owl-].owl-next{
 section .article-categorias .owl-next:hover{
     background: #FFFFFF !important;
     transform: scale(0.95);
+}
+
+@media screen and (max-width: 1300px){
+
+    section .article-categorias .owl-theme .item-theme-1{
+        height: 310px;
+        width: 370px;
+    }
+
+}
+
+@media screen and (max-width: 1180px){
+
+    section .article-categorias .owl-theme .item-theme-1{
+        height: 300px;
+        width: 320px;
+    }
+
+    section .article-categorias .owl-theme h2{
+        top: 235px;
+    }
+
+}
+
+@media screen and (max-width: 1050px){
+
+    section .article-categorias .owl-theme .item-theme-1{
+        height: 270px;
+        width: 280px;
+    }
+
+    section .article-categorias .owl-theme h2{
+        top: 210px;
+    }
+
+}
+
+@media screen and (max-width: 910px){
+
+    section .article-categorias .owl-theme .item-theme-1{
+        height: 350px;
+        width: 380px;
+    }
+
+    section .article-categorias .owl-theme h2{
+        top: 275px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 815px){
+
+    section .article-categorias .owl-theme .item-theme-1{
+        height: 300px;
+        width: 300px;
+    }
+
+    section .article-categorias .owl-theme h2{
+        top: 235px;
+    }
+
 }

@@ -9,6 +9,29 @@ import Img2 from './imgs/image41.png'
 import Img3 from './imgs/image42.png'
 import Img4 from './imgs/image43.png'
 
+const options = {
+    responsive: {
+        
+        0: {
+            items: 1,
+            margin: 0
+        },
+        650: {
+            items: 2,
+            margin: 0
+        },
+        911: {
+            items: 3,
+            margin: -10
+        },
+        1300: {
+            items: 4,
+
+        }
+    },
+};
+
+
 function ComponentCategorias() {
 
     return (
@@ -16,7 +39,7 @@ function ComponentCategorias() {
             <article className='article-categorias'>
                 <h1>Categorias</h1>
 
-                <OwlCarousel className="owl-theme" dots={false} loop margin={-10} items="4" autoplay={true} nav>
+                <OwlCarousel className="owl-theme" dots={false} loop items="4" margin={-10} autoplay={true} nav {...options}>
                     <div class="item-theme-1">
                         <img src={Img1} alt="categorias"/>
                         <h2>Brinquedos</h2>
